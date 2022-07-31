@@ -95,7 +95,7 @@
     left: 45px;
     background-color: hsl(158, 36%, 37%);
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 17px;
     border-radius: 5px;
@@ -112,7 +112,7 @@
     width: 20px;
     top: 157px;
     left: 60px;
-
+    filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(72deg) brightness(102%) contrast(105%);
 }
 
 .byfer{
