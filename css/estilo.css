@@ -128,7 +128,7 @@
     }
 
     .container .producto img{
-        content: url(/images/image-product-mobile.jpg);
+        content: url(../images/image-product-mobile.jpg);
     }
 
     .title{
