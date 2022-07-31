@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, .3);
+}
+
+.container img{
+    width: 282px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .producto{
+    height: 423px;
+}
+
+.description{
+    position:relative;
+}
+
+.title{
+    position: absolute;
+    bottom: 165px;
+    left: 30px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: rgb(151, 145, 145);
+}
+
+.perfume{
+    position: absolute;
+    width: 200px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    left: 25px;
+    bottom: 40px;
+    line-height: 35px;
+}
+
+.descripcion{
+    position: absolute;
+    font-family: 'Crimson Pro', serif;
+    width: 220px;
+    color: rgb(177, 173, 173);
+    font-size: 16px;
+    left: 30px;
+    bottom: -55px;
+    line-height: 20px;
+}
+
+.precio{
+    position: absolute;
+    font-family: 'Crimson Pro', serif;
+    top: 85px;
+    left: 30px;
+    font-weight: bolder;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+}
+
+.descuento{
+    position: absolute;
+    font-family: 'Crimson Pro', serif;
+    top: 100px;
+    left: 165px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.btn a{
+    position: absolute;
+    text-align:right;
+    width: 190px;
+    top: 150px;
+    left: 45px;
+    background-color: hsl(158, 36%, 37%);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    transition: .4s;
+}
+.btn a:hover{
+    background-color: hsl(159, 35%, 43%);
+}
+
+.cart img{
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    top: 157px;
+    left: 60px;
+
+}
+
+@media (max-width: 600px){
+    .container{
+        display: block;
+        width: 282px;
+        height: 550px;
+    }
+
+    .container img{
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+    }
+
+    .container .producto img{
+        content: url(/images/image-product-mobile.jpg);
+    }
+
+    .title{
+        top: -210px;
+    }
+    
+    .perfume{
+        top: -185px;
+    }
+
+    .descripcion{
+        top: -70px;
+    }
+
+    .precio{
+        top: 20px;
+    }
+
+    .descuento{
+        top: 35px;
+    }
+
+    .btn a{
+        top: 70px
+    }
+
+    .cart img{
+        top: 77px;
+    }
+
+
+}
+
