@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 92.2vh;
     background: hsl(30, 38%, 92%);
 }
 
@@ -113,6 +113,18 @@
     top: 157px;
     left: 60px;
 
+}
+
+.byfer{
+    background-color: hsl(32, 23%, 89%); 
+    color: hsl(0, 0%, 40%);
+    padding: 28px 30px;
+    text-align: center;
+}
+
+.byfer a{
+    color:hsl(0, 0%, 40%);
+    text-decoration: none;
 }
 
 @media (max-width: 600px){
