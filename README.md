@@ -18,5 +18,5 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Website - [Fernando Laxi](https://www.your-site.com)
+- Website - [Fernando Laxi](https://ferlaxi.github.io/previewcard/)
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
